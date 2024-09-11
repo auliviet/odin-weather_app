@@ -1,10 +1,8 @@
 import { getWeather } from "../_services/async";
 
 export default class Search {
-  constructor(location) {
+  constructor({ location }) {
     this.location = location;
-    this.input = this.#input();
-    this.submit = this.#submit();
   }
 
   #input() {
@@ -23,8 +21,8 @@ export default class Search {
   render() {
     return `
       <form class="search">
-        ${this.input}
-        ${this.submit}
+        ${this.#input()}
+        ${this.#submit()}
       </form>
     `;
   }
