@@ -24,10 +24,23 @@ export default class Navigation {
 
   #units() {
     return `
-      <input type="radio" id="celsius" name="units" value="celsius" class="nav__units selected"/>
+      <input 
+        form="search"
+        type="radio" 
+        id="celsius" 
+        name="units" 
+        value="celsius" 
+        class="nav__units selected"
+      />
       <label for="celsius">ºC</label>
 
-      <input type="radio" id="fahrenheit" name="units" value="fahrenheit" class="nav__units" />
+      <input 
+        type="radio" 
+        id="fahrenheit" 
+        name="units" 
+        value="fahrenheit" 
+        class="nav__units" 
+      />
       <label for="fahrenheit">ºF</label>
     `;
   }

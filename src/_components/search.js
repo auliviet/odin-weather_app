@@ -20,7 +20,7 @@ export default class Search {
 
   render() {
     return `
-      <form class="search">
+      <form class="search" id="search">
         ${this.#input()}
         ${this.#submit()}
       </form>
