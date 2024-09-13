@@ -30,6 +30,7 @@
 
     &:before {
       content: url("../_assets/icons/search.svg") / "Search icon";
+      font-size: 2rem;
     }
   }
 }
