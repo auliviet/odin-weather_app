@@ -33,11 +33,13 @@ export default class Navigation {
         id="celsius" 
         name="units" 
         value="celsius" 
-        class="nav__units selected"
+        class="nav__units"
+        checked
       />
       <label for="celsius">ºC</label>
 
-      <input 
+      <input
+        form="search" 
         type="radio" 
         id="fahrenheit" 
         name="units" 
