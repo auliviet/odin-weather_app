@@ -82,3 +82,7 @@ body {
 }
 
 /*  || UTILITIES */
+.large {
+  width: clamp(304px, 80%, 800px);
+  margin: auto;
+}
