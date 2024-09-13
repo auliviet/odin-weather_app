@@ -58,6 +58,8 @@ html {
   --neutral-500: #737373;
   --neutral-700: #404040;
   --neutral-900: #171717;
+  --primary: var(--neutral-700);
+  --secondary: var(--neutral-500);
 }
 
 /*  || TYPOGRAPHY */
