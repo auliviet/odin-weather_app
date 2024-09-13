@@ -1,9 +1,13 @@
 .nav {
-  padding: 1rem;
+  padding: .5rem;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: 1024px) {
+    padding: 1rem;
+  }
 
   & .nav__logo {
     font-size: 1rem;
