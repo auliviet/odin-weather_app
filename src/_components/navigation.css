@@ -1,0 +1,17 @@
+.nav {
+  padding: 1rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background: red;
+
+  & .nav__logo {
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--secondary);
+
+    & .nav__umbrella-required {
+      color: var(--primary);
+    }
+  }
+}
