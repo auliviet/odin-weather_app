@@ -1,6 +1,6 @@
 # Do I Need An Umbrella?
 
-The Oding Project: Weather App.
+[The Oding Project](https://www.theodinproject.com): Weather App.
 Exercise as part of the Full-stack JavaScript curriculum on working with APIs.
 
 ## Preview link
@@ -15,6 +15,7 @@ This project offers the below functionalities:
 
 - Current weather for a specified location (including chances of rain, humidity, sunrise and sunset).
 - 7-days forecast for a specified location.
+- Toggle between Celsius and Fahrenheit units.
 - Source code has two option to querry the API (Promises and Async/Await) to get familiar with both methods.
 - Background color of the page changes based on the weather forecast and time of the day.
 - Answer the simple question "Do I need an umbrella today"?
