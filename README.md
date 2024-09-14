@@ -5,7 +5,7 @@ Exercise as part of the Full-stack JavaScript curriculum on working with APIs.
 
 ## Preview link
 
-[TO ADD]
+[Github Pages](https://auliviet.github.io/odin-weather_app/)
 
 ## Project Overview
 
