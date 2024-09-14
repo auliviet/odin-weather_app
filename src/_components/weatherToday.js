@@ -44,7 +44,7 @@ export default class WeatherToday {
     return `
       <div class="weather-today__hero">
         <div class="weather-today__hero-icon">
-          <img src="_assets/icons/${this.currentConditions.icon}.svg">
+          <span class=${this.currentConditions.icon}></span>
         </div>
         <div class="weather-today__hero-infos">
           <h3 class="weather-today__hero-temp">
